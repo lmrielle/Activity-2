@@ -24,6 +24,10 @@ namespace EmployeeSalaryCalculator
             double overtimePay = overtimeHours * 200.0;
             double grossSalary = basicSalary + overtimePay;
 
+            // simple tax deduction (10%)
+            double tax = grossSalary * 0.10;
+            double netSalary = grossSalary - tax;
+
             Console.WriteLine("\n---------------------------------------------------------------------------");
             Console.WriteLine("                         Employee Salary Summary                           ");
             Console.WriteLine("---------------------------------------------------------------------------");
@@ -31,11 +35,13 @@ namespace EmployeeSalaryCalculator
             Console.WriteLine($"Basic Salary:  {basicSalary:N2}");
             Console.WriteLine($"Overtime Pay:  {overtimePay:N2}");
             Console.WriteLine($"Gross Salary:  {grossSalary:N2}");
+            Console.WriteLine($"Tax (10%):     {tax:N2}");
+            Console.WriteLine($"Net Salary:    {netSalary:N2}");
 
             Console.WriteLine("\n---------------------------------------------------------------------------");
             Console.WriteLine("                           Have a great day!                                 ");
             Console.WriteLine("          Thank you for using Employee Salary Calculator!                    ");
-            Console.WriteLine("-----------------------------------------------------------------------------");
+            Console.WriteLine("---------------------------------------------------------------------------");
         }
     }
 }
