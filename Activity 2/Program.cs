@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Employee Salary Calculator
+
+using System;
 
 namespace EmployeeSalaryCalculator
 {
