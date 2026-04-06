@@ -1,4 +1,4 @@
-# Activity 2
+# Activity 2 and Activity 3 - Version Control System using Git
 
 Employee Salary Calculator
 
