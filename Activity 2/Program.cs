@@ -33,8 +33,9 @@ namespace EmployeeSalaryCalculator
             Console.WriteLine($"Gross Salary:  {grossSalary:N2}");
 
             Console.WriteLine("\n---------------------------------------------------------------------------");
-            Console.WriteLine("          Thank you for using Employee Salary Calculator!");
-            Console.WriteLine("---------------------------------------------------------------------------");
+            Console.WriteLine("                           Have a great day!                                 ");
+            Console.WriteLine("          Thank you for using Employee Salary Calculator!                    ");
+            Console.WriteLine("-----------------------------------------------------------------------------");
         }
     }
 }
